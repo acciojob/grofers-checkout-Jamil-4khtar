@@ -14,7 +14,7 @@ const getSum = () => {
     const totalRow = document.createElement("tr");
     totalRow.innerHTML = `
             <td>Total</td>
-            <td>${totalPrice}</td>
+            <td id="ans">${totalPrice}</td>
     `;
     document.querySelector("table").appendChild(totalRow);
 
